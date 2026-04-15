@@ -795,7 +795,16 @@ var TercerEstado={
             boundsAlignV: "middle"
            
         });
-        MENSAJE.setTextBounds(630, 340, 100, 100);
+
+        MENSAJE2 = juego.add.text(0, 0, "Enrique Becerril - Eros Ramses",{
+            font: "bold 32px Arial",
+            fill: "#ffffff",
+            boundsAlignH: "center",
+            boundsAlignV: "middle"
+           
+        });
+        MENSAJE.setTextBounds(630, 320, 100, 100);
+        MENSAJE2.setTextBounds(630, 0, 100, 100);
         audio_fondo = juego.add.audio('roluki');
         audio_fondo.addMarker('intro', 0, 3, 1, true);
         audio_fondo.play('intro');
